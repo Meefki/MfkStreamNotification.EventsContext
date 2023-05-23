@@ -1,5 +1,5 @@
-﻿using Subscriptions.Domain.DomainExceptions;
-using Widgets.Domain.Aggregates.Abstractions;
+﻿using Widgets.Domain.Aggregates.Abstractions;
+using Widgets.Domain.DomainExceptions;
 
 namespace Widgets.Domain.Aggregates;
 

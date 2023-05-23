@@ -21,8 +21,19 @@ public class ProviderViewPort
         _eventHanlers = eventHandlers;
     }
 
-    public void AddOrUpdateEventHandler(EventType eventType, ViewPort viewPort)
+    public void UpdateEventHandler(EventType eventType, ViewPort viewPort)
     {
+        if (_eventHanlers[eventType] is null)
+            throw new AttemptToUpdateNotExistingEventHandler(eventType, Id.Value);
+
+        _eventHanlers[eventType] = viewPort;
+    }
+
+    public void AddEventHandler(EventType eventType, ViewPort viewPort)
+    {
+        if (_eventHanlers[eventType] is not null)
+            throw new AttemptToAddExistingEventHandler(eventType, Id.Value);
+
         _eventHanlers[eventType] = viewPort;
     }
 
