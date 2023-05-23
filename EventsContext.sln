@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{420722BA-ED17-4DE8-B3EA-05DD8C1C0F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AD363F16-60B2-4FCE-B5CD-DFF198D6FEAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Widgets", "Widgets", "{A5D3701A-3853-4B15-A24B-676F63AB9DAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Widgets.Domain", "src\Services\Widgets\Widgets.Domain\Widgets.Domain.csproj", "{356BECC4-46C7-4A9E-98A8-FB5B4500BC79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Widgets.API", "src\Services\Widgets\Widgets.API\Widgets.API.csproj", "{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{356BECC4-46C7-4A9E-98A8-FB5B4500BC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356BECC4-46C7-4A9E-98A8-FB5B4500BC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356BECC4-46C7-4A9E-98A8-FB5B4500BC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356BECC4-46C7-4A9E-98A8-FB5B4500BC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD363F16-60B2-4FCE-B5CD-DFF198D6FEAE} = {420722BA-ED17-4DE8-B3EA-05DD8C1C0F66}
+		{A5D3701A-3853-4B15-A24B-676F63AB9DAA} = {AD363F16-60B2-4FCE-B5CD-DFF198D6FEAE}
+		{356BECC4-46C7-4A9E-98A8-FB5B4500BC79} = {A5D3701A-3853-4B15-A24B-676F63AB9DAA}
+		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6} = {A5D3701A-3853-4B15-A24B-676F63AB9DAA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2625DEB9-E3B9-4AEA-BD9D-1480D3887EFF}
+	EndGlobalSection
+EndGlobal
