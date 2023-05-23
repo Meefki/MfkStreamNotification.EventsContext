@@ -1,4 +1,4 @@
-﻿namespace Subscriptions.Domain.SeedWork.Mediator;
+﻿namespace Widgets.Domain.SeedWork.Mediator;
 
 public interface IDomainEventHandler<in DomainEvent> where DomainEvent : IDomainEvent
 {

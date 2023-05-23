@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Subscriptions.API.Controllers
+namespace Widgets.API.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]

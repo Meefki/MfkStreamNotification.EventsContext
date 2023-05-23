@@ -1,7 +1,7 @@
 ﻿using Subscriptions.Domain.DomainExceptions;
-using Subscriptions.Domain.SeedWork;
+using Widgets.Domain.SeedWork;
 
-namespace Subscriptions.Domain.Aggregates.Abstractions;
+namespace Widgets.Domain.Aggregates.Abstractions;
 
 public class Size
     : ValueObject

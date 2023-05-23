@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Widgets.Domain", "src\Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Widgets.API", "src\Services\Widgets\Widgets.API\Widgets.API.csproj", "{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets.Application", "src\Services\Widgets\Widgets.Application\Widgets.Application.csproj", "{CD0585D6-C93D-4C50-8A23-997D7FD7008D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0585D6-C93D-4C50-8A23-997D7FD7008D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0585D6-C93D-4C50-8A23-997D7FD7008D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0585D6-C93D-4C50-8A23-997D7FD7008D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0585D6-C93D-4C50-8A23-997D7FD7008D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 		{A5D3701A-3853-4B15-A24B-676F63AB9DAA} = {AD363F16-60B2-4FCE-B5CD-DFF198D6FEAE}
 		{356BECC4-46C7-4A9E-98A8-FB5B4500BC79} = {A5D3701A-3853-4B15-A24B-676F63AB9DAA}
 		{6AD03CA7-3116-4DC1-AF88-DBCC353C97B6} = {A5D3701A-3853-4B15-A24B-676F63AB9DAA}
+		{CD0585D6-C93D-4C50-8A23-997D7FD7008D} = {A5D3701A-3853-4B15-A24B-676F63AB9DAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2625DEB9-E3B9-4AEA-BD9D-1480D3887EFF}

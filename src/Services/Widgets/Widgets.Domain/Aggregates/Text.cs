@@ -1,7 +1,7 @@
-﻿using Subscriptions.Domain.Aggregates.Abstractions;
-using System;
+﻿using System;
+using Widgets.Domain.Aggregates.Abstractions;
 
-namespace Subscriptions.Domain.Aggregates;
+namespace Widgets.Domain.Aggregates;
 
 public class Text
     : ComponentVO
@@ -10,11 +10,11 @@ public class Text
     public Font Font { get; init; }
 
     public Text(
-        Position position, 
+        Position position,
         Size size,
         Duration duration,
         string value,
-        Font font) 
+        Font font)
         : base(position, size, duration)
     {
         Value = value;

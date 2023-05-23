@@ -1,7 +1,7 @@
-﻿using Subscriptions.Domain.Aggregates.Abstractions;
-using System;
+﻿using System;
+using Widgets.Domain.Aggregates.Abstractions;
 
-namespace Subscriptions.Domain.Aggregates;
+namespace Widgets.Domain.Aggregates;
 
 public class Audio
     : ComponentVO
@@ -14,12 +14,12 @@ public class Audio
     public PlayType PlayType { get; init; }
 
     public Audio(
-        Position position, 
-        Size size, 
+        Position position,
+        Size size,
         Duration duration,
         string url,
         Volume volume,
-        PlayType playType) 
+        PlayType playType)
         : base(position, size, duration)
     {
         Url = url;

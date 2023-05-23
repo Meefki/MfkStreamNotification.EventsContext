@@ -1,6 +1,6 @@
-﻿using Subscriptions.Domain.Aggregates.Abstractions;
+﻿using Widgets.Domain.Aggregates.Abstractions;
 
-namespace Subscriptions.Domain.Aggregates;
+namespace Widgets.Domain.Aggregates;
 
 public class Picture
     : ComponentVO
@@ -12,11 +12,11 @@ public class Picture
     public RenderType RenderType { get; init; }
 
     public Picture(
-        Position position, 
-        Size size, 
+        Position position,
+        Size size,
         Duration duration,
         string url,
-        RenderType renderType) 
+        RenderType renderType)
         : base(position, size, duration)
     {
         Url = url;

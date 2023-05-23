@@ -1,5 +1,4 @@
-﻿using Subscriptions.Domain.Aggregates;
-using Subscriptions.Domain.SeedWork;
+﻿using Widgets.Domain.SeedWork;
 
 namespace Widgets.Domain.Aggregates;
 

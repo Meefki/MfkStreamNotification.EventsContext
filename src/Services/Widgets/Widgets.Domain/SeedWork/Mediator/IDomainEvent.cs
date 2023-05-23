@@ -1,3 +1,3 @@
-﻿namespace Subscriptions.Domain.SeedWork.Mediator;
+﻿namespace Widgets.Domain.SeedWork.Mediator;
 
 public interface IDomainEvent { }

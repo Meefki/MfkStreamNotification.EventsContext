@@ -1,7 +1,7 @@
-﻿using Subscriptions.Domain.Aggregates.Abstractions;
-using Subscriptions.Domain.DomainExceptions;
+﻿using Subscriptions.Domain.DomainExceptions;
+using Widgets.Domain.Aggregates.Abstractions;
 
-namespace Subscriptions.Domain.Aggregates;
+namespace Widgets.Domain.Aggregates;
 
 public class ViewPort
     : ComponentVO

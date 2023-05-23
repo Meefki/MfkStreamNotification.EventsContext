@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Subscriptions.Domain.DomainExceptions;
+namespace Widgets.Domain.DomainExceptions;
 
 internal class AttemptToCreateEmptyViewPortException
     : Exception

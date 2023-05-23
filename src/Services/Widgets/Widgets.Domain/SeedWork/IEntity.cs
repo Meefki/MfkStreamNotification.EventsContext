@@ -1,6 +1,6 @@
-﻿using Subscriptions.Domain.SeedWork.Mediator;
+﻿using Widgets.Domain.SeedWork.Mediator;
 
-namespace Subscriptions.Domain.SeedWork;
+namespace Widgets.Domain.SeedWork;
 
 public interface IEntity
 {

@@ -1,6 +1,6 @@
-﻿using Subscriptions.Domain.SeedWork;
+﻿using Widgets.Domain.SeedWork;
 
-namespace Subscriptions.Domain.Aggregates;
+namespace Widgets.Domain.Aggregates;
 
 public class PlayType
     : Enumeration

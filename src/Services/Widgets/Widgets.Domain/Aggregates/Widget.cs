@@ -1,16 +1,15 @@
-﻿using Subscriptions.Domain.SeedWork;
-using Widgets.Domain.Aggregates;
-using Widgets.Domain.DomainExceptions;
+﻿using Widgets.Domain.DomainExceptions;
+using Widgets.Domain.SeedWork;
 
-namespace Subscriptions.Domain.Aggregates;
+namespace Widgets.Domain.Aggregates;
 
 public sealed class Widget
     : Entity<Guid>, IAggregateRoot
 {
     private WidgetId _id;
     public override IEntityIdentifier<Guid> Id
-    { 
-        get => _id; 
+    {
+        get => _id;
         protected set => _id = (WidgetId)value;
     }
 

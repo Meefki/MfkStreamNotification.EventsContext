@@ -1,4 +1,4 @@
-﻿namespace Subscriptions.Domain.DomainExceptions;
+﻿namespace Widgets.Domain.DomainExceptions;
 
 internal class InvalidDurationException
     : Exception

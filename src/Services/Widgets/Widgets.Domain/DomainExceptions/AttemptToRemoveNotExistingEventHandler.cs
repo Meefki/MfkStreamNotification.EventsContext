@@ -1,4 +1,4 @@
-﻿using Subscriptions.Domain.Aggregates;
+﻿using Widgets.Domain.Aggregates;
 
 namespace Widgets.Domain.DomainExceptions;
 

@@ -1,4 +1,4 @@
-﻿namespace Subscriptions.Domain.SeedWork;
+﻿namespace Widgets.Domain.SeedWork;
 
 public interface IUnitOfWork : IDisposable
 {

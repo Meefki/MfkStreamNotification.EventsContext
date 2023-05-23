@@ -1,6 +1,6 @@
-﻿using Subscriptions.Domain.SeedWork;
+﻿using Widgets.Domain.SeedWork;
 
-namespace Subscriptions.Domain.Aggregates;
+namespace Widgets.Domain.Aggregates;
 
 public class Provider
     : Enumeration
@@ -10,7 +10,7 @@ public class Provider
     public static Provider YouTube = new(3, nameof(YouTube));
     public static Provider Trovo = new(4, nameof(Trovo));
 
-    public Provider(int id, string name) 
+    public Provider(int id, string name)
         : base(id, name)
     {
     }

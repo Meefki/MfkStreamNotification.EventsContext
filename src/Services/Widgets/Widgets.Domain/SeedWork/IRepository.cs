@@ -1,4 +1,4 @@
-﻿namespace Subscriptions.Domain.SeedWork;
+﻿namespace Widgets.Domain.SeedWork;
 
 public interface IRepository<T>
     where T : IAggregateRoot

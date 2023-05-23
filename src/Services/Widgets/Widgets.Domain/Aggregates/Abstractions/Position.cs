@@ -1,6 +1,6 @@
-﻿using Subscriptions.Domain.SeedWork;
+﻿using Widgets.Domain.SeedWork;
 
-namespace Subscriptions.Domain.Aggregates.Abstractions;
+namespace Widgets.Domain.Aggregates.Abstractions;
 
 public class Position
     : ValueObject
