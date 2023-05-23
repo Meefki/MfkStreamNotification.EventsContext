@@ -1,4 +1,6 @@
-﻿namespace Widgets.Application.SeedWork.Mediator;
+﻿using Widgets.Domain.SeedWork.Mediator;
+
+namespace Widgets.Application.SeedWork.Mediator;
 
 public interface IDomainEventMediator
 {

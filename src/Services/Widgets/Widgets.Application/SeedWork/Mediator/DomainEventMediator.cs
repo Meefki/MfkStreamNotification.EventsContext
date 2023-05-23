@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Concurrent;
 using System.Reflection;
+using Widgets.Domain.SeedWork.Mediator;
 
 namespace Widgets.Application.SeedWork.Mediator;
 
